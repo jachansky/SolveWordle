@@ -10,7 +10,7 @@ import random
 def main():
     
     #Get List of Possible Solutions
-    file = open("Dictionaries/wordle-La.txt")
+    file = open("wordle-La.txt")
     wordList = file.readlines()
     #remove \n
     dictionary = {}
